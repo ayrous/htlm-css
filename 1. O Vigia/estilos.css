@@ -1,0 +1,30 @@
+body{
+	background-color: rgb(38, 175, 166);
+}
+
+/*Estilizando por classe*/
+.centro{
+
+	text-align: center; /*Alinhamento de texto*/
+}
+
+/*trabalhando com boxing*/
+#sectionLutePeloFuturo{
+	border-style: solid;
+	border-width: 30px;
+	border-color: lightblue;
+
+	border-top-width:10px; /*largura cima*/
+	border-bottom-width: 6px; /*largura baixo*/
+	border-left-width: 2px; /*largura esquerda*/
+}
+
+/*Estilizando por hierarquia*/
+#sectionLutePeloFuturo h2{
+	margin: 0px;
+	margin-bottom: 50px;
+}
+
+* {
+    font-family: Comic;
+}
